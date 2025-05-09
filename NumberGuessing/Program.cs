@@ -63,7 +63,7 @@ namespace NumberGuessing
             if (guessCount > 0)
                TwoTab($"Congrats! You are guessed correctly {guessCount} numbers Your Score is {Math.Pow(10, guessCount)}\n");
             else
-                TwoTab("Unfortunately You didnot guessed correct number \n");
+                TwoTab("Unfortunately You did not guessed correct number \n");
 
             TwoTab("For try again press something on keyboard ");
             TwoTab("For Quit press Escape ");
@@ -102,7 +102,7 @@ namespace NumberGuessing
             int? previousNumber = null;
             int guessCount = 0;
 
-            Align("You'he Pressed Contuniue button");
+            Align("You've Pressed Contuniue button");
             Thread.Sleep(2000);
             Console.BackgroundColor = ConsoleColor.Magenta;
             Console.Clear();
